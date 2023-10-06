@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*comentario*/
+/* section{
+    propriedade: valor;
+} */
+
+@import url('https://fonts.googleapis.com/css2? family= Sacramento & display=swap');
+
+body {
+    font-family: 'Sacramento', cursive;
+    /** background-color:#021736 ;  /*cor de fundo da página*/
+    background: url("img/ubuntu.jpg") no-repeat
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(43, 43, 43);
+    border-spacing: 0;
+    text-align: center;
+}
+
+td {
+    border: 1px solid rgb(88, 68, 68);
+    padding: 5px;
+
+}
+
+#menu {
+    color: red;
+    font-size: large;
+}
+
+a {
+    color: rgb(255, 246, 246);
+    text-decoration: name;
+}
+
+a:hover {
+    color: #eeaa69;
+    text-decoration: underline;
+}
+
+.linha {
+    background-color: rgb(66, 66, 71);
+}
+
+h1 {
+    font-size: 2em;
+}
