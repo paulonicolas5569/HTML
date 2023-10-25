@@ -1,36 +1,37 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: titulo;
-    src: url(fontes/bubblegum-sans-regular.otf);
+    font-family:titulo ;
+    src: url(fontes/Loopi.otf);
 }
 
 
-* {
+*{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-body {
-    background: #ccc;
+body{
+    background: #ccc ;
 }
 
-#interface {
+#interface{
     background: #fff;
     width: 1200px;
     margin: 0 auto;
 }
 
-#topo {
+#topo{
     height: 70px;
+
 }
 
-#topo img {
+#topo{
     margin: 10px 20px;
 }
 
-#menu {
+#menu{
     display: block;
     position: absolute;
     width: 800px;
@@ -38,31 +39,33 @@ body {
     left: 900px;
 }
 
-#menu ul {
+#menu ul{
     list-style: none;
-    font-size: 1.2em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em; ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+
 }
 
-#menu li {
+
+#menu li{
     float: left;
 }
 
-#menu li a {
-    color: #4c4c4c;
+#menu li a{
+    color: #000000;
     text-decoration: none;
     margin: 0px;
     padding: 5px 25px;
 }
 
-#menu li a:hover {
-    color: #109eea;
+#menu li a:hover{
+    color: aqua;
     text-decoration: underline;
 }
 
-#banner-anime {
+#banner-anime{
     position: relative;
     display: inline-block;
     width: 100%;
@@ -70,137 +73,140 @@ body {
     margin: 0px;
 }
 
-#anime1,
-#anime2 {
+
+#anime1, #anime2{
     max-width: 100%;
     height: auto;
+
 }
 
-#banner-anime img {
+#banner-anime img{
     position: absolute;
     transition-property: opacity;
     transition-duration: 1s;
 }
 
-#anime1,
-#anime2:hover {
+#anime1, #anime2:hover{
     opacity: 1;
 }
 
-#anime1:hover,
-#anime2 {
+#anime1:hover, #anime2{
     opacity: 0;
 }
 
-h1 {
+h1{
     font-family: titulo;
-    color: #b32828;
+    color: #ff0101;
     font-size: 3em;
     text-align: center;
     margin: 15px;
 }
 
-#contato {
+#contato{
     width: 1000px;
     margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
+
 }
 
-input,
-textarea,
-section {
+input,textarea,select{
     font-size: 0.9em;
-    background: #f1eeee;
+    background: #f3f2f2;
     border-radius: 5px;
     padding: 5px;
-    box-shadow: inset 0 -4px rgba(0, 0, 0, .6);
+
 }
 
-#cCor {
-    background: nome;
+#cCor{
+    background: none;
     padding: 0px;
+
 }
 
-legend {
-    color: #b32828;
+legend{
+    color: #000000;
     font-family: titulo;
     font-size: 1.5em;
+
 }
 
-fieldset {
-    border: 1px solid #b32828;
+fieldset{
+    border: 1px solid #3a3b3b;
     padding: 15px;
     margin-bottom: 30px;
 }
 
-#sexo {
+#sexo{
     width: 250px;
+
 }
 
-#contato p {
+#contato p{
     padding: 5px;
 }
-
-#usuario {
-    background: url(img/icontato.png)no-repeat 95% 95%;
+#usuario{
+    background: url(img/icontato.png) no-repeat 95% 95%;
 }
 
-#endereco {
-    background: url(img/iendereco.png)no-repeat 95% 95%;
+
+#endereco{
+    background: url(img/iendereco.png) no-repeat 95% 95%;
 }
 
-#mensagem {
-    background: url(img/imensagem.png)no-repeat 95% 95%;
+#mensagem{
+    background: url(img/imensagem.png) no-repeat 95% 95%
 }
 
-#pedido {
-    background: url(img/ipgto.png)no-repeat 95% 95%;
+#pedido{
+    background: url(img/ipgto.png) no-repeat 95% 95%
 }
 
-.btn {
-    background: #109eea;
-    color: beige;
+.btn{
+    background: #3a3b3b;
+    color:#ccc ;
     font-size: 1.1em;
     padding: 7px;
-    margin: 0px 5px 15px 5px;
+    margin: 0px 5px 15px;
     border-radius: 10px;
 }
 
-#botao {
+#botao{
     text-align: center;
 }
 
 #rodape{
-    border-top: 2px solid #4c4c4c;
+    border-top: 2px solid #3a3b3b;
     padding: 5px;
+
 }
 
 #rodape p{
     text-align: center;
-    color: #020202;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3a3b3b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
     margin: 10px 5px;
 }
 
 #rodape a{
-    text-decoration: name;
+    text-decoration: none;
 }
 
-/*PÁGINA DE FOTOS*/
+/*pagina de fotos*/
 
-#galeria1 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#galeria1 P{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
-    padding: 5px 15px;
+    padding: 5px 15px ;
 }
 
 #album-fotos{
     width: 696px;
     margin: 0 auto;
     padding: 50px;
-    list-style: name;
+    list-style: none;
+
 }
 
 #album-fotos li{
@@ -208,98 +214,91 @@ fieldset {
     width: 198px;
     height: 200px;
     margin: 10px;
-    border: 3px solid #b32828;
-    background: #fff;
+    border: 3px solid #ededf3;
+    background: #ededf3;
 }
 
-album-fotos li.galeria{
+#album-fotos li .galeria{
     opacity: 0;
-    color: #109eea;
-    background: #000;
+    color:#f3f2f2;
+    background: rgba(0, 0, 0, 0.5);
     font-size: 0.9em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5px;
     line-height: 370px;
-
-
 }
 
-album-fotos li:hover .galeria{
+#album-fotos li:hover .galeria{
     opacity: 1;
 }
 
-album-fotos li:hover{
-    transform:scale(1.5);
+#album-fotos li:hover{
+transform: scale(1.5);
 }
 
-#album-foto li.foto1{
+#album-fotos li.foto1{
     background: url(img/galeria1.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto1:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
 
-#album-foto li.foto2{
+#album-fotos li.foto2{
     background: url(img/galeria2.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto2:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
 
-#album-foto li.foto3{
+
+#album-fotos li.foto3{
     background: url(img/galeria3.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto3:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
 
-#album-foto li.foto4{
+#album-fotos li.foto4{
     background: url(img/galeria4.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto4:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
 
-#album-foto li.foto5{
+#album-fotos li.foto5{
     background: url(img/galeria5.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto5:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
 
-#album-foto li.foto6{
+#album-fotos li.foto6{
     background: url(img/galeria6.jpg) no-repeat;
-    background-position: 50px 50px;
+    background-position: 50% 50%;
     background-size: 700px 500px;
-
 }
 
-#album-foto li.foto:hover{
-    background-position:0% 0% ;
-    background-size:200px 200px  ;
+#album-fotos li.foto6:hover{
+background-position: 0% 0%;
+background-size: 200px 200px;
 }
