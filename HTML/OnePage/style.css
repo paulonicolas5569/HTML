@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*fontes
+    titulos: quicksand
+        texto: josafin sons */
+        /*cores:
+        #17361
+        #a9a9a9
+        #fff*/
+
+/*
+/*SMARTPHONE PORTRAIT*/
+
+/*SMARTPHONE LANDSCAPE*/
+@media (min-width: 576px){
+    body{
+        background: #23be04;
+    }
+}
+
+/*TABLET PORTRAIT*/
+@media (min-width: 768px){
+    body{
+        background: rgba(42, 63, 155, 0.533);
+    }
+}
+
+/*TABLET LANDSCAPE*/
+@media (min-width: 992px){
+    body{
+        background: rgba(12, 12, 7, 0.533);
+    }
+}
+
+/*PC*/
+@media (min-width: 1200px){
+    body{
+        background: rgba(255, 255, 246, 0.533);
+    }
+}
+
