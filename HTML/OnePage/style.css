@@ -286,6 +286,12 @@ footer{
     margin-bottom: 25px;
 }
 
+.social a{
+    text-decoration: none;
+}
+
+
+
 /*SMARTPHONE LANDSCAPE*/
 @media (min-width: 576px){
     body{
