@@ -48,7 +48,7 @@
                     </div>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="contatos.html">Contatos</a>
+                  <a class="nav-link disabled" href="#">Contatos</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -84,37 +84,67 @@
 
           <!-- Fim do Banner -->
 
-          <!-- Inicio Cards -->
-          <section class="container bg-light text-center mb-m">
-            <h1 class="pt-3 pb-3">Aqui você encontra os melhores jogos. </h1>
+          <!-- Inicio do formulario -->
+          <section class="container bg-light text-center mb-3">
+            <h1 class="pt-3 pb-3">Entre em contato</h1>
 
-            <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="img/x_xbox.jpg" alt="Imagem de capa do card">
-                  <div class="card-body">
-                    <h5 class="card-title">Xbox</h5>
-                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
-                <a href="Xbox.thml" class="btn btn-primary">Saiba+</a>
-                  </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <!-- <label for="inputNome">Nome</label> -->
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <!-- <label for="inputEmail4">Email</label> -->
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <!-- <label for="inputAddress">Endereço</label> -->
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Nome da Rua,°1234 ">
+                        </div>
+                        <!-- <div class="form-group">
+                          <label for="inputAddress2">Endereço 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                        </div> -->
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <!-- <label for="inputCity">Cidade</label> -->
+                            <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <!-- <label for="inputEstado">Estado</label> -->
+                            <select id="inputEstado" class="form-control">
+                              <option selected>São Paulo </option>
+                              <option>Rio de Janeiro</option>
+                              <option>Minas Gerais </option>
+                              <option>Espirito Santo </option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <!-- <label for="inputCEP">CEP</label> -->
+                            <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="exampleFormControlTextarea1">Exemplo de textarea</label> -->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deixe sua Mensagem "></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                        <button type="reset" class="btn btn-primary">Limpar</button>
+                      </form>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="img/ps5.jpg" alt="Imagem de capa do card">
-                  <div class="card-body">
-                    <h5 class="card-title">Playtation</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                    <a href="ps.thml" class="btn btn-primary">Saiba+</a>
-                  </div>
+                <div class="col-sm-4">
+                    <img src="img/jogo-mario.jpg" alt="jogo-mario" class="img-fluid rounded-circle">
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="img/jogo-mario.jpg" alt="Jogos do jogo">
-                  <div class="card-body">
-                    <h5 class="card-title">Jogos</h5>
-                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-                    <a href="fotos.html" class="btn btn-primary">Saiba+</a>
-                </div>
-              </div>
-          </section>
-          <!-- Fim dos cards -->
+
+            </div>
+
+            </section>
+    
+          <!-- Fim do formulario -->
 
           <!-- Inicio do Rodápe -->
           <footer class="container bg-dark text-light mt-3">
